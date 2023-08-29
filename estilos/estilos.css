@@ -459,3 +459,23 @@ iframe {
     margin-top: 100px;
   
 }
+
+/* ENTRENADORES y NUTRICIONISTAS*/ 
+.titulo-entrenadores-nutricionistas h1 {
+    text-align: left;
+    font-size: 164px;
+
+}
+
+@media screen and (max-width: 1366px) {
+    .titulo-entrenadores-nutricionistas h1 {
+        font-size: 140px;
+    }
+    
+}
+
+.entrenadores-nutricionistas {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
