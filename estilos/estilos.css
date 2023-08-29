@@ -1,0 +1,257 @@
+body {
+    background-color: rgb(29, 26, 24);
+}
+
+
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+
+main {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#inicio {
+
+    margin-bottom: 180px;
+
+}
+
+.subtitulo {
+    background-color: #1b1a1a;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #db6767;
+    display: inline-block;
+    font-size: 25px;
+
+}
+
+.subtitulo-2 a {
+    color: #db6767;
+    text-decoration: none;
+    background-color: #1b1a1a;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #db6767;
+    display: inline-block;
+}
+
+.titulo {
+    text-align: left;
+    font-size: 220px;
+
+}
+
+@media screen and (max-width: 1366px) {
+    .titulo {
+        font-size: 140px;
+    }
+    .subtitulo {
+        
+        font-size: 15px;
+    
+    }
+    
+   .subtitulo-2 {
+        font-size: 23px;
+   }
+}
+
+
+
+
+
+.card-body a {
+    text-decoration: none;
+    color: #db6767;
+    transition: color 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+.card-body a:hover {
+    color: #ff5500;
+}
+
+
+/*NOSOTROS*/
+#nosotros {
+    
+    padding: 50px;
+    background-color: #242222;
+    border: 2px solid #242222;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+    margin-top: 100px;
+}
+
+#nosotros h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#nosotros p {
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 290px;
+    height: auto;
+}
+
+
+
+
+/* CONTACTO */
+
+#contacto {
+    text-align: center;
+    padding: 50px;
+    background-color: #242222;
+    border: 2px solid #242222;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+
+
+}
+
+.form-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacto h2 {
+    font-size: 50px;
+    padding: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.formulario {
+    background-color: rgb(29, 26, 24);
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #242222;
+    border-radius: 10px;
+    width: 50%;
+    position: relative;
+    bottom: 60px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+
+.info {
+
+    width: 50%;
+    margin-bottom: 300px;
+
+}
+
+.info h4 {
+    font-size: 26px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin: 30px;
+
+
+}
+
+iframe {
+    width: 400px;
+    height: auto;
+}
+
+
+/*pie de pagina*/
+
+#pie-de-pagina img {
+    height: 150px;
+    width: auto;
+}
+
+
+#pie-de-pagina {
+    background-color: #242222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.columna {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.columna h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.columna ul {
+    list-style: none;
+    padding: 0;
+}
+
+.columna ul li {
+    margin-bottom: 5px;
+
+}
+
+.columna a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+.pie-de-pagina img {
+    width: 9rem;
+
+
+}
+
