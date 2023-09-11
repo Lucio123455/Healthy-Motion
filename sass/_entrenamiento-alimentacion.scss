@@ -1,177 +1,188 @@
 // Estilos para entrenamiento y alimentación
 .entrenamiento-alimentacion {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    margin-bottom: 100px;
-    
-    .item {
-      background-color: rgb(29, 26, 24);
-      color: white;
-      font-size: 23px;
-      border-radius: 5px;
-    }
-  
-    .item-1 {
-      grid-row: span 1;
-      grid-column: span 2;
-      height: 450px;
-      margin-bottom: 100px;
-      
-      h1 {
-        font-size: 130px;
-      }
-  
-      @media screen and (max-width: 1600px) {
-        h1 {
-          font-size: 100px;
-        }
-      }
-  
-      @media screen and (max-width: 1366px) {
-        h1 {
-          font-size: 75px;
-        }
-      }
-    }
-  
-    .item-2 {
-      grid-column: span 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 20px;
-    }
-  
-    .item-3 {
-      grid-row: span 1;
-      grid-column: span 2;
-      display: flex;
-      align-items: center;
-      font-size: 20px;
-      text-align: center;
-      border: solid 2px #db6767;
-    }
-  
-    .item-4 {
-      grid-row: span 1;
-      grid-column: span 1;
-      background-image: url(https://s1.1zoom.me/b6451/922/16_KG_Dumbbells_Black_and_white_Gym_538198_1920x1080.jpg);
-      background-size: cover; 
-      background-position: center center; 
-      height: 450px;
-      margin-bottom: 100px;
-    }
-  
-    .item-5 {
-      grid-column: span 1;
-      grid-row: span 2;
-      background-image: url(https://images.pexels.com/photos/17959562/pexels-photo-17959562/free-photo-of-hombre-en-pie-fitnes-atleta.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-      background-size: cover; 
-      background-position: center center; 
-      height: 600px;
-    }
-  
-    .item-6 {
-      grid-row: span 2;
-      background-color: #242222;
-    }
-  
-    .item-7 {
-      grid-row: span 2;
-      background-image: url(https://images.pexels.com/photos/13761368/pexels-photo-13761368.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);    
-      background-size: cover;
-      background-position: center center; 
-      height: 600px;
-      margin-top: 100px;
-    }
-  
-    .item-8 {
-      grid-row: span 1;
-      grid-column: span 1;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-    }
-  
-    .item-9 {
-      grid-row: span 2;
-      background-image: url(https://images.pexels.com/photos/7676555/pexels-photo-7676555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-      background-size: cover; 
-      background-position: center center; 
-      height: 600px;
-      margin-top: 100px;
-    }
-  
-    .item-10 {
-      grid-row: span 1;
-      grid-column: span 1;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      margin-top: 1px;
-      margin-top: 100px;
-    }
-  
-    .item-11 {
-      grid-row: span 2;
-      grid-column: span 1;
-      background-color: #242222;
-    }
-  
-    .item-12 {
-      grid-row: span 1;
-      grid-column: span 1;
-    }
-  
-    .item-13 {
-      margin-top: 100px;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-    }
-  
-    .item-14 {
-      background-color: #242222;
-    }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 100px;
+
+  .item {
+    background-color: rgb(29, 26, 24);
+    color: white;
+    font-size: 23px;
+    border-radius: 5px;
   }
 
-  // Estilos para entrenamiento y alimentación (segunda parte)
-.item-4-a {
+  .item-1 {
+    grid-row: span 1;
+    grid-column: span 2;
+    height: 450px;
+    margin-bottom: 100px;
+
+    h1 {
+      font-size: 130px;
+    }
+
+  }
+
+  @media (max-width: 767px){
+    .item {
+      background-color: rgb(29, 26, 24);
+      color:white;
+      font-size: 15px;
+      border-radius: 5px;
+    }
+
+    .item-1{
+      margin-bottom: 0px;
+    }
+    .item-1 {
+      h1 {
+        font-size: 50px;
+        position: relative;
+        left: 95px;
+        text-align: center;
+      }
+    }
+  }
+  
+
+
+
+  .item-2 {
+    grid-column: span 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+
+  .item-3 {
+    grid-row: span 1;
+    grid-column: span 2;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    border: solid 2px #db6767;
+  }
+
+  .item-4 {
     grid-row: span 1;
     grid-column: span 1;
-    background-image: url(https://images.pexels.com/photos/936611/pexels-photo-936611.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: cover; 
-    background-position: center center; 
+    background-image: url(https://s1.1zoom.me/b6451/922/16_KG_Dumbbells_Black_and_white_Gym_538198_1920x1080.jpg);
+    background-size: cover;
+    background-position: center center;
     height: 450px;
     margin-bottom: 100px;
   }
-  
-  .item-5-a {
+
+  .item-5 {
     grid-column: span 1;
     grid-row: span 2;
-    background-image: url(https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(https://images.pexels.com/photos/17959562/pexels-photo-17959562/free-photo-of-hombre-en-pie-fitnes-atleta.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
-    background-position: center center; 
+    background-position: center center;
     height: 600px;
   }
-  
-  .item-7-a {
+
+  .item-6 {
     grid-row: span 2;
-    background-image: url(https://images.pexels.com/photos/9025234/pexels-photo-9025234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: cover; 
-    background-position: center center; 
+    background-color: #242222;
+  }
+
+  .item-7 {
+    grid-row: span 2;
+    background-image: url(https://images.pexels.com/photos/13761368/pexels-photo-13761368.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center center;
     height: 600px;
     margin-top: 100px;
   }
-  
-  .item-9-a {
+
+  .item-8 {
+    grid-row: span 1;
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .item-9 {
     grid-row: span 2;
-    background-image: url(https://images.pexels.com/photos/17942956/pexels-photo-17942956/free-photo-of-plato-vegetales-oscuro-almuerzo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: cover; 
-    background-position: center center; 
+    background-image: url(https://images.pexels.com/photos/7676555/pexels-photo-7676555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center center;
     height: 600px;
     margin-top: 100px;
   }
-  
-  
+
+  .item-10 {
+    grid-row: span 1;
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1px;
+    margin-top: 100px;
+  }
+
+  .item-11 {
+    grid-row: span 2;
+    grid-column: span 1;
+    background-color: #242222;
+  }
+
+  .item-12 {
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+
+  .item-13 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .item-14 {
+    background-color: #242222;
+  }
+}
+
+// Estilos para entrenamiento y alimentación (segunda parte)
+.item-4-a {
+  grid-row: span 1;
+  grid-column: span 1;
+  background-image: url(https://images.pexels.com/photos/936611/pexels-photo-936611.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: center center;
+  height: 450px;
+  margin-bottom: 100px;
+}
+
+.item-5-a {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-image: url(https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+}
+
+.item-7-a {
+  grid-row: span 2;
+  background-image: url(https://images.pexels.com/photos/9025234/pexels-photo-9025234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+  margin-top: 100px;
+}
+
+.item-9-a {
+  grid-row: span 2;
+  background-image: url(https://images.pexels.com/photos/17942956/pexels-photo-17942956/free-photo-of-plato-vegetales-oscuro-almuerzo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+  margin-top: 100px;
+}

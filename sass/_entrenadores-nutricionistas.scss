@@ -7,6 +7,11 @@
       @media screen and (max-width: 1366px) {
         font-size: 140px;
       }
+
+      @media (max-width: 767px){
+        font-size: 75px;
+        text-align: center;
+      }
     }
   
     // Estilos para el contenedor de entrenadores y nutricionistas
@@ -14,5 +19,6 @@
       margin-top: 100px;
       margin-bottom: 100px;
     }
+    
   }
   

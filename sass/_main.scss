@@ -2,4 +2,11 @@ main {
     margin-left: 300px;
     margin-right: 300px;
 }
+
+@media (max-width: 767px) {
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
   

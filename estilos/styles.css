@@ -14,40 +14,57 @@ main {
   margin-right: 300px;
 }
 
-#inicio {
-  margin-bottom: 180px;
-}
-#inicio 
-
-.subtitulo {
-  background-color: #1b1a1a;
-  padding: 10px 20px;
-  border-radius: 20px;
-  border: 2px solid #db6767;
-  display: inline-block;
-  font-size: 25px;
-}
-#inicio .subtitulo-2 a {
-  color: #db6767;
-  text-decoration: none;
-  background-color: #1b1a1a;
-  padding: 10px 20px;
-  border-radius: 20px;
-  border: 2px solid #db6767;
-  display: inline-block;
-}
-#inicio .titulo {
-  text-align: left;
-  font-size: 220px;
-}
-
-@media (max-width: 768px) {
-  .subtitulo{
-    text-align: center;
+@media (max-width: 767px) {
+  main {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
-
-
+@media (min-width: 767px) {
+  #inicio {
+    margin-bottom: 180px;
+  }
+  #inicio .subtitulo {
+    background-color: #1b1a1a;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #db6767;
+    display: inline-block;
+    font-size: 25px;
+  }
+  #inicio .subtitulo-2 a {
+    color: #db6767;
+    text-decoration: none;
+    background-color: #1b1a1a;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #db6767;
+    display: inline-block;
+  }
+  #inicio .titulo {
+    text-align: left;
+    font-size: 220px;
+  }
+}
+@media (max-width: 767px) {
+  #inicio .subtitulo {
+    background-color: #1b1a1a;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid #db6767;
+    font-size: 15px;
+  }
+  #inicio .titulo {
+    font-size: 100px;
+    text-align: center;
+  }
+  #inicio .subtitulo-2 {
+    display: none;
+  }
+  #inicio .subtitulo-2 a {
+    display: none;
+  }
+}
 .card-body a {
   text-decoration: none;
   color: #db6767;
@@ -86,6 +103,11 @@ main {
   height: auto;
 }
 
+@media (max-width: 767px) {
+  #nosotros {
+    display: none;
+  }
+}
 #contacto {
   text-align: center;
   padding: 50px;
@@ -151,6 +173,11 @@ main {
   height: auto;
 }
 
+@media (max-width: 767px) {
+  #contacto {
+    display: none;
+  }
+}
 #pie-de-pagina img {
   height: 150px;
   width: auto;
@@ -215,14 +242,21 @@ main {
 .entrenamiento-alimentacion .item-1 h1 {
   font-size: 130px;
 }
-@media screen and (max-width: 1600px) {
-  .entrenamiento-alimentacion .item-1 h1 {
-    font-size: 100px;
+@media (max-width: 767px) {
+  .entrenamiento-alimentacion .item {
+    background-color: rgb(29, 26, 24);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
   }
-}
-@media screen and (max-width: 1366px) {
+  .entrenamiento-alimentacion .item-1 {
+    margin-bottom: 0px;
+  }
   .entrenamiento-alimentacion .item-1 h1 {
-    font-size: 75px;
+    font-size: 50px;
+    position: relative;
+    left: 95px;
+    text-align: center;
   }
 }
 .entrenamiento-alimentacion .item-2 {
@@ -357,6 +391,12 @@ main {
 @media screen and (max-width: 1366px) {
   .titulo-entrenadores-nutricionistas h1 {
     font-size: 140px;
+  }
+}
+@media (max-width: 767px) {
+  .titulo-entrenadores-nutricionistas h1 {
+    font-size: 75px;
+    text-align: center;
   }
 }
 .titulo-entrenadores-nutricionistas.entrenadores-nutricionistas {
