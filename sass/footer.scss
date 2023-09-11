@@ -1,0 +1,49 @@
+#pie-de-pagina img {
+    height: 150px;
+    width: auto;
+}
+
+
+#pie-de-pagina {
+    background-color: #242222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.columna {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.columna h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.columna ul {
+    list-style: none;
+    padding: 0;
+}
+
+.columna ul li {
+    margin-bottom: 5px;
+
+}
+
+.columna a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+.pie-de-pagina img {
+    width: 9rem;
+
+
+}

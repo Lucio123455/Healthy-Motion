@@ -1,0 +1,32 @@
+#nosotros {
+    padding: 50px;
+    background-color: #242222;
+    border: 2px solid #242222;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+  
+    h2 {
+      font-size: 50px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    p {
+      font-size: 20px;
+      margin: 5px;
+      text-align: center;
+    }
+  
+    .logo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      img {
+        width: 290px;
+        height: auto;
+      }
+    }
+  }
+  

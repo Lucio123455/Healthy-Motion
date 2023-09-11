@@ -1,0 +1,11 @@
+.card-body a {
+    text-decoration: none;
+    color: #db6767;
+    transition: color 0.3s ease-in-out;
+    font-size: 20px;
+  
+    &:hover {
+      color: #ff5500;
+    }
+  }
+  
