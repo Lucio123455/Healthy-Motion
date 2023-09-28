@@ -38,10 +38,16 @@
     .item-1 {
       h1 {
         font-size: 50px;
-        position: relative;
-        left: 95px;
+        
         text-align: center;
       }
+    }
+
+    .item-2 {
+      display: none;
+      width: 0;
+      grid-row: span 0;
+      grid-column: 0;
     }
   }
   
