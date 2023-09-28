@@ -53,6 +53,7 @@ main {
     border-radius: 20px;
     border: 2px solid #db6767;
     font-size: 15px;
+    margin: 5px;
   }
   #inicio .titulo {
     font-size: 100px;
@@ -70,11 +71,17 @@ main {
   color: #db6767;
   transition: color 0.3s ease-in-out;
   font-size: 20px;
+  margin: 5px;
 }
 .card-body a:hover {
   color: #ff5500;
 }
 
+@media (max-width: 767px) {
+  .row-cols-md-2 {
+    flex-direction: column;
+  }
+}
 #nosotros {
   padding: 50px;
   background-color: #242222;
@@ -221,6 +228,20 @@ main {
   width: 9rem;
 }
 
+@media (max-width: 767px) {
+  .columna h3 {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  #pie-de-pagina img {
+    display: none;
+  }
+  .columna a {
+    color: white;
+    text-decoration: none;
+    font-size: 8px;
+  }
+}
 .entrenamiento-alimentacion {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
