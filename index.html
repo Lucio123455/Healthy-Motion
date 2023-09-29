@@ -7,10 +7,12 @@
   <title>Healthy Motion 2.0</title>
   <link rel="stylesheet" href="./estilos/bootstrap.min.css">
   <link rel="stylesheet" href="./estilos/styles.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
-  
+
   <header id="header">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="container-fluid">
@@ -38,133 +40,150 @@
   </header>
 
   <main>
-    <div id="inicio">
-      <h2 class="subtitulo">Te ofrecemos una rutina de entrenamiento y un plan de alimentacion para que puedas alcanzar
-        tus objetivos</h2>
-      <h1 class="titulo">
-        Healthy Motion
-      </h1>
+    <div data-aos="zoom-in">
+      <div id="inicio">
+        <h2 class="subtitulo">Te ofrecemos una rutina de entrenamiento y un plan de alimentacion para que puedas alcanzar
+          tus objetivos</h2>
+        <h1 class="titulo">
+          Healthy Motion
+        </h1>
+  
+        <h2 class="subtitulo-2">Aqui puedes conocer <a href="./index.html#nosotros">Quienes Somos</a></h2>
+  
+      </div>
+    </div>
+    
 
-      <h2 class="subtitulo-2">Aqui puedes conocer <a href="./index.html#nosotros">Quienes Somos</a></h2>
 
+    <div data-aos="zoom-in-right">
+      <section id="contenido">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="https://www.goya.com/media/8251/easy-baked-chicken-and-rice.jpg?quality=80" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <a href="./paginas/alimentacion.html">Alimentacion</a>
+                <p class="card-text">Descubre nuestros planes de alimentacion</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://s1.1zoom.me/b5854/791/Bodybuilding_Men_511666_1920x1080.jpg" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <a href="./paginas/entrenamiento.html">Entrenamiento</a>
+                <p class="card-text">Aqui podras ver nuestras rutinas de entrenamiento</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://boomi.b-cdn.net/wp-content/uploads/2022/05/Como-escolher-o-melhor-nutricionista-para-o-seu-objetivo.png"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="./paginas/nutricionistas.html">Nutricionistas</a>
+                <p class="card-text">Conoce a nuestros mejores nutricionistas</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://mbpschool.com/wp-content/uploads/2022/07/2807_BLOG-16_9.png" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <a href="./paginas/entrenadores.html">Entrenadores</a>
+                <p class="card-text">Descrubre quienes seran tus entrenadores</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
 
+    <div data-aos="zoom-in-left">
+      <section id="nosotros">
+        <h2>Nosotros</h2>
+        <p>En Healthy Motion, somos un grupo de profesionales entusiastas y dedicados al mundo del bienestar y la salud.
+          Nuestra misión es empoderarte para que alcances tu máximo potencial en términos de salud y estado físico. A
+          través de años de experiencia y conocimiento en entrenamiento y nutrición, hemos creado un espacio donde
+          puedes
+          transformar tu estilo de vida.
 
-    <section id="contenido">
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-          <div class="card">
-            <img src="https://www.goya.com/media/8251/easy-baked-chicken-and-rice.jpg?quality=80" class="card-img-top"
-              alt="...">
-            <div class="card-body">
-              <a href="./paginas/alimentacion.html">Alimentacion</a>
-              <p class="card-text">Descubre nuestros planes de alimentacion</p>
-            </div>
+          Nos esforzamos por ofrecer programas de entrenamiento personalizados que se adapten a tus necesidades y
+          objetivos individuales. Ya sea que estés buscando perder peso, aumentar tu resistencia o simplemente mejorar
+          tu
+          salud en general, estamos aquí para apoyarte en cada paso del camino.
+
+          Nuestro enfoque en la nutrición se basa en la idea de que una alimentación equilibrada y consciente es
+          esencial
+          para alcanzar tus metas. Te proporcionamos planes de alimentación diseñados específicamente para tus
+          preferencias y requerimientos, asegurándonos de que obtengas todos los nutrientes necesarios para mantenerte
+          en
+          tu mejor forma.
+
+          En Healthy Motion, no solo te brindamos las herramientas, sino también la motivación y el apoyo para que
+          alcances un estado de bienestar óptimo. Estamos comprometidos con tu éxito y te invitamos a unirte a nuestra
+          comunidad en busca de un camino más saludable y lleno de energía.
+        </p>
+
+        <div class="logo">
+          <img src="./img/logo.png" alt="">
+          <h3>Healthy Motion</h3>
+        </div>
+
+
+
+      </section>
+    </div>
+
+
+    <div data-aos="zoom-in-right">
+      <section id="contacto">
+        <h2>Contacto</h2>
+  
+        <div class="form-info">
+  
+          <div class="formulario">
+            <form id="formulario-contacto" action="enviar_correo.php" method="post">
+              <fieldset>
+                <label for="nombre">Nombre y Apellido:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Niko Martinez" required>
+  
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="nikomartinez41@gmail.com" required>
+  
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Me interesan sus servicios" required>
+  
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escriba su mensaje aquí"></textarea>
+              </fieldset>
+  
+              <button class="boton" type="submit">Enviar</button>
+            </form>
+  
+          </div>
+  
+          <div class="info">
+            <h4>Ubicacion: Avenida San Martin 5600</h4>
+            <h4>Mail: luciocienfuegos41@gmail.com</h4>
+            <h4>Telefono: 1133869359</h4>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13138.99060998847!2d-58.51928091284181!3d-34.5852512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7391f8a51ad%3A0x2c7dede98e603f45!2sWillpower%20Fitness!5e0!3m2!1ses-419!2sar!4v1693191717310!5m2!1ses-419!2sar"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <img src="https://s1.1zoom.me/b5854/791/Bodybuilding_Men_511666_1920x1080.jpg" class="card-img-top"
-              alt="...">
-            <div class="card-body">
-              <a href="./paginas/entrenamiento.html">Entrenamiento</a>
-              <p class="card-text">Aqui podras ver nuestras rutinas de entrenamiento</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img
-              src="https://boomi.b-cdn.net/wp-content/uploads/2022/05/Como-escolher-o-melhor-nutricionista-para-o-seu-objetivo.png"
-              class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="./paginas/nutricionistas.html">Nutricionistas</a>
-              <p class="card-text">Conoce a nuestros mejores nutricionistas</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="https://mbpschool.com/wp-content/uploads/2022/07/2807_BLOG-16_9.png" class="card-img-top"
-              alt="...">
-            <div class="card-body">
-              <a href="./paginas/entrenadores.html">Entrenadores</a>
-              <p class="card-text">Descrubre quienes seran tus entrenadores</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  
+      </section>
 
+    </div>
 
-    <section id="nosotros">
-      <h2>Nosotros</h2>
-      <p>En Healthy Motion, somos un grupo de profesionales entusiastas y dedicados al mundo del bienestar y la salud.
-        Nuestra misión es empoderarte para que alcances tu máximo potencial en términos de salud y estado físico. A
-        través de años de experiencia y conocimiento en entrenamiento y nutrición, hemos creado un espacio donde puedes
-        transformar tu estilo de vida.
-
-        Nos esforzamos por ofrecer programas de entrenamiento personalizados que se adapten a tus necesidades y
-        objetivos individuales. Ya sea que estés buscando perder peso, aumentar tu resistencia o simplemente mejorar tu
-        salud en general, estamos aquí para apoyarte en cada paso del camino.
-
-        Nuestro enfoque en la nutrición se basa en la idea de que una alimentación equilibrada y consciente es esencial
-        para alcanzar tus metas. Te proporcionamos planes de alimentación diseñados específicamente para tus
-        preferencias y requerimientos, asegurándonos de que obtengas todos los nutrientes necesarios para mantenerte en
-        tu mejor forma.
-
-        En Healthy Motion, no solo te brindamos las herramientas, sino también la motivación y el apoyo para que
-        alcances un estado de bienestar óptimo. Estamos comprometidos con tu éxito y te invitamos a unirte a nuestra
-        comunidad en busca de un camino más saludable y lleno de energía.
-      </p>
-
-      <div class="logo">
-        <img src="./img/logo.png" alt="">
-        <h3>Healthy Motion</h3>
-      </div>
-      
-
-      
-    </section>
-
-
-
-    <section id="contacto">
-      <h2>Contacto</h2>
-
-      <div class="form-info">
-
-        <div class="formulario">
-          <form id="formulario-contacto" action="enviar_correo.php" method="post">
-            <fieldset>
-              <label for="nombre">Nombre y Apellido:</label>
-              <input type="text" id="nombre" name="nombre" placeholder="Niko Martinez" required>
-
-              <label for="correo">Correo electrónico:</label>
-              <input type="email" id="correo" name="correo" placeholder="nikomartinez41@gmail.com" required>
-
-              <label for="asunto">Asunto:</label>
-              <input type="text" id="asunto" name="asunto" placeholder="Me interesan sus servicios" required>
-
-              <label for="mensaje">Mensaje:</label>
-              <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escriba su mensaje aquí"></textarea>
-            </fieldset>
-
-            <button class="boton" type="submit">Enviar</button>
-          </form>
-
-        </div>
-
-        <div class="info">
-          <h4>Ubicacion: Avenida San Martin 5600</h4>
-          <h4>Mail: luciocienfuegos41@gmail.com</h4>
-          <h4>Telefono: 1133869359</h4>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13138.99060998847!2d-58.51928091284181!3d-34.5852512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7391f8a51ad%3A0x2c7dede98e603f45!2sWillpower%20Fitness!5e0!3m2!1ses-419!2sar!4v1693191717310!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-
-    </section>
+    
   </main>
 
 
@@ -198,7 +217,9 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 

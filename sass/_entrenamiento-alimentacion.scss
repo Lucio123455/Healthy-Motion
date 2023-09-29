@@ -33,7 +33,11 @@
     }
 
     .item-1{
-      margin-bottom: 0px;
+      margin-bottom: 50px;
+      grid-row: span 1;
+      grid-column: span 3;
+      height: auto;
+      
     }
     .item-1 {
       h1 {
@@ -44,10 +48,10 @@
     }
 
     .item-2 {
-      display: none;
       width: 0;
-      grid-row: span 0;
-      grid-column: 0;
+      height: 0;
+      grid-column: 3;
+      grid-row: 1;
     }
   }
   
