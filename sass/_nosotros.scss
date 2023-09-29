@@ -32,6 +32,18 @@
   
   @media (max-width: 767px){
     #nosotros {
-      
+      .logo {
+        
+       h3 {
+        display: none;
+       }
+    
+        img {
+          width: 200px;
+          height: auto;
+          justify-content: center;
+        }
+      }
+
     }
   }
